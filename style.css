@@ -1,0 +1,34 @@
+html {
+  background-image: url(https://l4d.dev/wp-content/uploads/2016/05/For-Ultimate.jpg);
+  background-color: rgba(44, 44, 44);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  /* background-color: rgba(	44, 44, 44, 0.5) !important; */
+  background-color: transparent !important;
+}
+
+.welcome {
+  background-color: rgba(44, 44, 44, 0.5) !important;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.buttons {
+  text-align: center !important;
+  margin: auto !important;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.ui.inverted.sub.header.centered {
+  font-size: 1em !important;
+}
+
+.ui.attached.segment {
+  border: none;
+}
