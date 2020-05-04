@@ -21,9 +21,10 @@ function RuleComponent(rule: iRule): string {
   let { title, description, dont } = rule;
 
   return `<div class="item">
-      <i class="${dont ? "times" : "check"} ${dont ? "red" : "green"} icon"></i>
       <div class="content">
-        <div class="header">${title}</div>
+        <div class="header"><i class="${dont ? "icon-remove" : "icon-ok"} ${
+    dont ? "red" : "green"
+  }"></i> ${title}</div>
         <div class="description">
           ${description}
         </div>
@@ -42,9 +43,8 @@ function RenderBoxes() {
 function BoxComponent(box: iBox): string {
   let { name, description } = box;
   return `<div class="item">
-      <i class="box open icon brown"></i>
       <div class="content">
-        <div class="header">${name}</div>
+        <div class="header"><i class="icon-dropbox brown"></i> ${name}</div>
         <div class="description">
           ${description}
         </div>
@@ -63,9 +63,8 @@ function RenderCommands() {
 function CommandComponent(box: iBox): string {
   let { name, description } = box;
   return `<div class="item">
-      <i class="terminal icon"></i>
       <div class="content">
-        <div class="header">${name}</div>
+        <div class="header"><i class="icon-terminal"></i> ${name}</div>
         <div class="description">
           ${description}
         </div>

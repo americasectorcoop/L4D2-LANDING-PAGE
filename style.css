@@ -1,5 +1,5 @@
 html {
-  background-image: url(https://l4d.dev/wp-content/uploads/2016/05/For-Ultimate.jpg);
+  background-image: url(./images/background.jpg);
   background-color: rgba(44, 44, 44);
   background-repeat: no-repeat;
   /* background-position: center; */
@@ -8,7 +8,6 @@ html {
 }
 
 body {
-  /* background-color: rgba(	44, 44, 44, 0.5) !important; */
   background-color: transparent !important;
 }
 
@@ -24,6 +23,37 @@ body {
   padding: 20px;
   padding-bottom: 0px;
 }
+
+.buttons a {
+  min-width: 30%;
+}
+
+i[class*="icon-"] {
+  padding-right: .28571429em;
+  vertical-align: top;
+}
+
+i[class*="icon-"].green {
+  color: #21ba45;
+}
+
+i[class*="icon-"].red {
+  color: #db2828;
+}
+
+i[class*="icon-"].brown {
+  color: #a5673f;
+}
+
+/* .ui.list .list>.item>i.icon, .ui.list>.item>i.icon */
+/* .ui.list .list>.item>i[class*="icon-"], .ui.list>.item>i[class*="icon-"] {
+  display: table-cell !important;
+  min-width: 1.55em !important;
+  margin: 0 !important;
+  padding-top: 0 !important;
+  -webkit-transition: color .1s ease !important;
+  transition: color .1s ease !important;
+} */
 
 .ui.inverted.sub.header.centered {
   font-size: 1em !important;
