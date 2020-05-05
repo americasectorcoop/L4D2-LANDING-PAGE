@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "dev": "nodemon -e ts --exec \"npx tsc && http-server --port 5000 -s\""
+    "dev": "nodemon -e ts --exec \"npx tsc && http-server ./dist --port 5000 -s\""
   },
   "author": "",
   "license": "ISC",

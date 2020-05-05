@@ -6,8 +6,6 @@ interface iRule extends iData {
   dont: boolean;
 }
 
-alert("test")
-
 const DEFAULT_LANGUAGE: string = "en";
 const ACCEPT_LANGUAGES = ["es", "en"];
 
@@ -23,12 +21,12 @@ function GetUserLanguage() {
   return DEFAULT_LANGUAGE;
 }
 
-function getParameterByName(name: string, url?: string) {
+function getParameterByName(name: string, url?: string): string {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, "\\$&");
   var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
     results = regex.exec(url);
-  if (!results) return null;
+  if (!results) return "";
   if (!results[2]) return "";
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
@@ -116,8 +114,8 @@ function RenderMessages(language: string) {
 }
 
 window.onload = function () {
-  let language = getParameterByName("lang");
-  if (!language) {
+  let language: string = getParameterByName("lang");
+  if (!ACCEPT_LANGUAGES.includes(language)) {
     language = GetUserLanguage();
   }
   RenderMessages(language);
