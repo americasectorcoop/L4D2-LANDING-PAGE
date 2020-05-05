@@ -7,7 +7,7 @@ interface iRule extends iData {
 }
 
 const DEFAULT_LANGUAGE: string = "en";
-const ACCEPT_LANGUAGES = ["es", "en"];
+const ACCEPT_LANGUAGES = ["es", "en", "ja", "pt", "ru", "zh"];
 
 function GetUserLanguage() {
   let local_language =

@@ -1,6 +1,6 @@
 "use strict";
 var DEFAULT_LANGUAGE = "en";
-var ACCEPT_LANGUAGES = ["es", "en"];
+var ACCEPT_LANGUAGES = ["es", "en", "ja", "pt", "ru", "zh"];
 function GetUserLanguage() {
     var local_language = window.navigator.userLanguage || window.navigator.language;
     if (local_language) {
