@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Respeta a todos los jugadores sin excepción.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "Ayuda a tus compañeros, especialmente a los nuevos, recuerda que tu fuiste uno alguna vez.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "Cuida tu fuego amigo! Los accidentes pasan. Disculpate y camina hacia el futuro.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "No pelees, no causes drama innecesario, o insultes a otros. Es solo un juego, así que relax!",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "Por favor no hagas spam; Esto incluye: chat, chat de voz y cambio de nombre.",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "No utilices sprays ofensivos!",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "CERO TOLERANCIA al: racismo, homofobia, fanatismo o xenofobia. ¡TODOS aquí son bienvenidos!",
+    "dont": true,
+    "description": ""
+  }
+]

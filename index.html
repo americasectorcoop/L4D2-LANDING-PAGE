@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,17 +13,19 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.4/semantic.min.css"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.4/semantic.min.js"></script>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-
     <script src="dist/index.js"></script>
   </head>
   <body class="ui inverted segment container">
     <div class="welcome">
       <h1 class="ui inverted header centered">
-        Welcome to AMERICA SECTOR COOP
+        <span class="lg_title">Welcome to</span> AMERICA SECTOR COOP
       </h1>
-      <h2 class="ui inverted sub header centered">
+      <h2 class="ui inverted sub header centered lg_description">
         Cooperative campaign in EXPERT difficulty with up to 24 players!<br />Don’t
         play it lightly because it ain’t like any regular servers. Join us now
         and find out.
@@ -31,24 +33,21 @@
     </div>
 
     <div class="buttons centered">
-     
       <a class="ui blue button" href="#server_rules">
-        <i class="icon-ok"></i> RULES
+        <i class="icon-ok"></i> <span class="lg_rules">RULES</span>
       </a>
       <a class="ui black button" href="#server_commands">
-        <i class="icon-terminal"></i> COMMANDS
+        <i class="icon-terminal"></i> <span class="lg_commands">COMMANDS</span>
       </a>
       <a class="ui brown button" href="#server_boxes">
-        <!-- <i class="box open icon"></i> -->
-        <i class="icon-dropbox"></i> BOXES
+        <i class="icon-dropbox"></i> <span class="lg_boxes">BOXES</span>
       </a>
-      
     </div>
 
     <br />
     <!-- --- START :: RULES SECTION ---- -->
     <h3 class="ui inverted top attached header" id="server_rules">
-      Rules:
+      <span class="lg_rules">RULES</span>:
     </h3>
     <div class="ui inverted attached segment">
       <div class="ui inverted list" id="rules">
@@ -63,7 +62,7 @@
     <!-- --- START :: COMMANDS SECTION ---- -->
     <br />
     <h3 class="ui inverted top attached header" id="server_commands">
-      Commands:
+      <span class="lg_commands">COMMANDS</span>:
     </h3>
     <div class="ui inverted attached segment">
       <div class="ui inverted list" id="commands">
@@ -78,7 +77,7 @@
     <!-- --- START :: BOXES SECTION ---- -->
     <br />
     <h3 class="ui inverted top attached header" id="server_boxes">
-      Boxes:
+      <span class="lg_boxes">BOXES</span>:
     </h3>
     <div class="ui inverted attached segment">
       <div class="ui inverted list" id="boxes">

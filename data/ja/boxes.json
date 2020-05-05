@@ -1,0 +1,106 @@
+[
+  {
+    "name": "acidbox",
+    "description": "Spawns a pool of spitter acid around box."
+  },
+  {
+    "name": "airstrikebox",
+    "description": "Creates F-18 jets that fly pass, randomly shooting missiles."
+  },
+  {
+    "name": "bingobox",
+    "description": "Randomly gain or lose up to -500 points."
+  },
+  {
+    "name": "blazebox",
+    "description": "A shield of fire protects you from all zombies and special infected (except the tank!)"
+  },
+  {
+    "name": "bloodbox",
+    "description": "Reduces the amount of times you can get incapacitated to 1."
+  },
+  {
+    "name": "bonusbox",
+    "description": "Increases the amount of points and drops from special infected."
+  },
+  { "name": "boombox", "description": "Creates a small explosion." },
+  { "name": "boomerbox", "description": "Only boomer special infected." },
+  {
+    "name": "bossbox",
+    "description": "Doubles the amount of special infected."
+  },
+  {
+    "name": "bridebox",
+    "description": "Spawns 4 and more bride witches by box!"
+  },
+  { "name": "bwbox", "description": "The player becomes black and white." },
+  { "name": "chargerbox", "description": "Only charger special infected." },
+  {
+    "name": "cloudbox",
+    "description": "Spawns a toxic cloud that can hurt players over time if standing in it."
+  },
+  {
+    "name": "expiredbox",
+    "description": "You become black and white with 1hp!"
+  },
+  {
+    "name": "explosionbox",
+    "description": "Creates an explosion that can incapacitate/kill players!"
+  },
+  { "name": "failbox", "description": "No more drops from special infected!" },
+  {
+    "name": "flamebox",
+    "description": "Player is on fire until incapacitated."
+  },
+  { "name": "freezebox", "description": "Freezes nearby players." },
+  {
+    "name": "grenadebox",
+    "description": "Gives the player a grenade launcher."
+  },
+  { "name": "hardbox", "description": "Increases the difficulty." },
+  {
+    "name": "healbox",
+    "description": "Heals the player’s life to 100%. Has a chance to bring dead players back to life."
+  },
+  {
+    "name": "hellbox",
+    "description": "Creates an explosion each second for 5 times on the player that opened the box! Beware!"
+  },
+  { "name": "huntingbox", "description": "Only hunter special infected." },
+  { "name": "icebox", "description": "Freezes you" },
+  { "name": "laserbox", "description": "Spawns the laser sight upgrades box." },
+  { "name": "lifebox", "description": "Gives the player 200hp." },
+  {
+    "name": "medbox",
+    "description": "Spawns medikits, defibrillators, pills or adrenaline shots."
+  },
+  {
+    "name": "meteorbox",
+    "description": "Creates meteors that fall from the sky for a short time period."
+  },
+  { "name": "multiplebox", "description": "Spawns multiple boxes." },
+  { "name": "nextbox", "description": "Shows what box is next." },
+  {
+    "name": "panicbox",
+    "description": "Calls a horde of random uncommon zombies."
+  },
+  { "name": "pointsbox", "description": "Player receives +500 points." },
+  {
+    "name": "realismbox",
+    "description": "Deactivates the halos/glow around all players and items."
+  },
+  { "name": "respawnbox", "description": "Brings dead players back to life." },
+  { "name": "spitterbox", "description": "Only spitter special infected." },
+  {
+    "name": "tankbox",
+    "description": "Spawns a regular/super tank OR turns player into tank!"
+  },
+  { "name": "tinybox", "description": "Zombies become smaller." },
+  { "name": "vomitbox", "description": "Vomits nearby players." },
+  {
+    "name": "weaponbox",
+    "description": "Player receives a random weapon. (scout, spas, or AWP)"
+  },
+  { "name": "whitebox", "description": "All players become black and white!" },
+  { "name": "witchbox", "description": "Spawns 10 witches in a random place." }
+]

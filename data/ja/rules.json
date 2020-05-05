@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Respect the other players along with the admins & mods.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "Help your teammates, especially the newer players! You were new once too.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "Watch your fire! Accidents will happen. Apologize and move on.",
+    "dont": false,
+    "description": ""
+  },
+  {
+    "name": "No fighting, causing unnecessary drama, or insulting each other. It's only a game so relax!",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "Please do not spam; This includes the chat, voice chat, and in-game name changes.",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "No offensive player names or sprays!",
+    "dont": true,
+    "description": ""
+  },
+  {
+    "name": "No racism, homophobia, bigotry or xenophobia.",
+    "dont": true,
+    "description": ""
+  }
+]

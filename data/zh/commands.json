@@ -1,0 +1,110 @@
+[
+  {
+    "name": "join",
+    "description": "Allows you to enter the game if you’re spectating."
+  },
+  {
+    "name": "afk",
+    "description": "Allows you to enter spectate after a couple of seconds. Each time is different when you use it. Max is 19 seconds."
+  },
+  {
+    "name": "cfs",
+    "description": "Command for suicide."
+  },
+  {
+    "name": "kill",
+    "description": "Another command for suicide."
+  },
+  {
+    "name": "drop",
+    "description": "Whatever item you’re holding in your hands, you drop it."
+  },
+  {
+    "name": "rank",
+    "description": "Shows your current rank."
+  },
+  {
+    "name": "nextrank",
+    "description": "Shows how many more points you need for the next rank."
+  },
+  {
+    "name": "points",
+    "description": "Shows the current amount of points that you have."
+  },
+  {
+    "name": "maptop",
+    "description": "Shows the current map’s best and worst player."
+  },
+  {
+    "name": "top20",
+    "description": "Shows the top 20 players in the server."
+  },
+  {
+    "name": "top15",
+    "description": "Shows the top 15 players in the server."
+  },
+  {
+    "name": "top10",
+    "description": "Shows the top 10 players in the server."
+  },
+  {
+    "name": "next",
+    "description": "Shows the next map along with the amount of times the current map has been failed."
+  },
+  {
+    "name": "ping",
+    "description": "Shows your current ping."
+  },
+  {
+    "name": "thp",
+    "description": "Shows the tank’s health."
+  },
+  {
+    "name": "mut",
+    "description": "Brings up a menu of the current players and allows you to mute someone"
+  },
+  {
+    "name": "showpoints",
+    "description": "Shows your rank and your points to everyone."
+  },
+  {
+    "name": "info",
+    "description": "Shows you another player’s rank, health, etc."
+  },
+  {
+    "name": "serverinfo",
+    "description": "Shows information about the server."
+  },
+  {
+    "name": "nick",
+    "description": "Change to Nick."
+  },
+  {
+    "name": "rochelle",
+    "description": "Change to Rochelle."
+  },
+  {
+    "name": "ellis",
+    "description": "Change to Ellis."
+  },
+  {
+    "name": "coach",
+    "description": "Change to Coach."
+  },
+  {
+    "name": "bill",
+    "description": "Change to Bill."
+  },
+  {
+    "name": "zoey",
+    "description": "Change to Zoey."
+  },
+  {
+    "name": "francis",
+    "description": "Change to Francis."
+  },
+  {
+    "name": "louis",
+    "description": "Change to Louis."
+  }
+]
