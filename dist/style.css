@@ -26,6 +26,11 @@ body {
 
 .buttons a {
   min-width: 30%;
+  text-transform: uppercase !important;
+}
+
+.ui.attached.header {
+  text-transform: capitalize !important;
 }
 
 i[class*="icon-"] {
